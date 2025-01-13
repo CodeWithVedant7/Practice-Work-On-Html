@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form action="/submit" method="post">
+        <!-- Text Input Field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        
+        <!-- Password Input Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox" name="subscribe" value="yes">
+            Subscribe to Newsletter
+        </label><br><br>
+        
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <label>
+            <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> Female
+        </label><br><br>
+        
+        <!-- Dropdown Menu -->
+        <label for="country">Select your country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+        
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
